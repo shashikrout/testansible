@@ -1,0 +1,6 @@
+---
+- name: Step 1 Message
+  hosts: all
+  tasks:
+    - debug:
+        msg: "Step 1 completed successfully"
